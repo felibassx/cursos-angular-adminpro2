@@ -12,6 +12,8 @@ import { RegisterComponent } from './login/register.component';
 
 // Modules
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
+// import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 
 @NgModule({
@@ -24,7 +26,8 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    APP_ROUTES
+    APP_ROUTES,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
